@@ -14,3 +14,13 @@ This project is a replication of the paper [Scalable and Generalizable Social Bo
 * run DataAnalysisHeatmap.ipynb to train models on single datasets and test on another in order to see the correlation of datasets
 * run ShapAnalysis.ipynb to see and compare the SHAP analysis on ours and their best models
 * run ShapAnalysisII.ipynb to see what has happened behind extremely low entries of the heatmap and compare several of them
+
+## Requirements
+
+[pandas](https://pandas.pydata.org/docs/index.html), [scikit-learn](https://scikit-learn.org/stable/index.html), and [joblib](https://joblib.readthedocs.io/en/latest/) are required packages for almost all notebooks.
+
+All generated plots require [seaborn](https://seaborn.pydata.org/).
+
+DataCollecting.ipynb requires [tweepy](https://docs.tweepy.org/en/stable/) version 4.0 or later.
+
+BotometerEvaluation.ipynb requires [Botometer](https://github.com/IUNetSci/botometer-python) (which depends on tweepy version 3.10 or lower... sorry) 
